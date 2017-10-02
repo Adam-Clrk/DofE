@@ -131,12 +131,13 @@ function setpage(newpage) {
       });
 
       //And then change the page to that component
-      var sidebar = document.getElementById('sidebar')
-      var elements = sidebar.getElementsByClassName('md-primary')
+      var sidebar = document.getElementById('sidebar');
+      var elements = sidebar.getElementsByClassName('md-primary');
       while(elements.length > 0){
         elements[0].classList.remove('md-primary');
         //elements = document.querySelectorAll('#sidebar .md-list-item.md-primary');
       }
+      /*2 0 1 7 A d a m C l a r k e*/
 
       document.getElementById(newpage).classList.add('md-primary');
       //$('.md-sidenav .md-sidenav-content ul .md-list-item#'+newpage).addClass('md-primary')
