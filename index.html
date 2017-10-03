@@ -116,16 +116,6 @@ var vm = new Vue({
   }
 })
 
-//if (window.location.hash == "") {
-//  window.location.hash = "#/"
-//}
-
-window.location.hash = window.location.hash || "#/"
-console.log(window.location.hash);
-
-var currentpage = window.location.hash.substr(2);
-setpage(currentpage);
-
 function getUrl(aUrl, aCallback) {
     var anHttpRequest = new XMLHttpRequest();
     anHttpRequest.onreadystatechange = function() {
@@ -136,8 +126,6 @@ function getUrl(aUrl, aCallback) {
     anHttpRequest.open( "GET", aUrl, true );
     anHttpRequest.send( null );
 }
-
-
 
 function setpage(newpage) {
   newpage = newpage || "home"
@@ -168,6 +156,10 @@ function setpage(newpage) {
       }
   });
 }
+
+window.location.hash = window.location.hash || "#/"
+var currentpage = window.location.hash.substr(2);
+setpage(currentpage);
 </script>
 </body>
 </html>
