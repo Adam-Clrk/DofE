@@ -3,7 +3,7 @@
   "short_name": "DofE",
   "description": "Our project for our DofE expiditon",
   "lang": "en-GB",
-  "start_url": "/",
+  "start_url": "/a",
   "scope": "/",
   "display": "fullscreen",
   "theme_color": "#ffffff",
