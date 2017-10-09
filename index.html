@@ -108,7 +108,7 @@ var vm = new Vue({
     ]
   },
   methods:{
-    sidenavclick: function(e){
+    sidenavclick: function(e) {
       var path = e.path[0].parentNode.id;
       this.$refs.sidebar.toggle();
       setpage(path);
@@ -129,7 +129,7 @@ function getUrl(aUrl, aCallback) {
 
 function setpage(newpage) {
   newpage = newpage || "home"
-  getUrl('pages/' + newpage, (a) => {
+  getUrl('pages/' + newpage, function(a) {
   //$.get( 'pages/' + newpage, (a) => {
     //console.log(a)
       //Create the new component using the template we received
