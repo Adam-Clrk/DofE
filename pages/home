@@ -1,11 +1,13 @@
 <main class="main-content">
   <span class="md-headline">Home</span>
 <p class="md-body-1">
- Here we can put a basic description of our webapp/projecttest
+ A project concerning the various species of flora and fauna found during our DofE expedition.
+ By Team 10: Ludo Adams, Sam Baker, Aidan Birdi, Zac Fraser-Attewell and Simeon Whitbourne.
 </p>
-<span class="md-subheading">Header</span>
+<span class="md-subheading">Introduction</span>
 <p class="md-body-1">
- Then a longer one here. 
- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Throughout our DofE experience, we were planning to be observant to flora and fauna in the area.
+  We have documented, recorded and researched many of the natural organisms we have found and the experience did not render underwhelming.
+  In this webapp, we will show the variety of many of the plants and animals that we found throughout the Ashdown Forest and our comments upon them.
 </p>
 </main>
