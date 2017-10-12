@@ -2,12 +2,15 @@
   <span class="md-headline">Home</span>
 <p class="md-body-1">
  A project concerning the various species of flora and fauna found during our DofE expedition.
- By Team 10: Ludo Adams, Sam Baker, Aidan Birdi, Zac Fraser-Attewell and Simeon Whitbourne.
 </p>
-<span class="md-subheading">Introduction</span>
+<p class = "md-body-1">
+  By Team 10: Ludo Adams, Sam Baker, Aidan Birdi, Zac Fraser-Attewell and Simeon Whitbourne.
+</p>
+<span class="md-subheading">An Introduction:</span>
 <p class="md-body-1">
   Throughout our DofE experience, we were planning to be observant to flora and fauna in the area.
   We have documented, recorded and researched many of the natural organisms we have found and the experience did not render underwhelming.
   In this webapp, we will show the variety of many of the plants and animals that we found throughout the Ashdown Forest and our comments upon them.
+  Now click through the tabs located in the sidebar to progress.
 </p>
 </main>
