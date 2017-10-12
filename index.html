@@ -28,7 +28,7 @@
   <script src="https://unpkg.com/vue-material@0.7.5/dist/vue-material.js" integrity="sha384-Ov/eiWMGVqdWQbicrwRH4ezPK6W4zu9kAK0Pp5PZsntJ7J1yg4ZkchKBi15/GfTp" crossorigin="anonymous"></script>
   <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>-->
   <style>
-  li.md-list-item,button {
+  li.md-list-item,button.md-button {
     cursor: pointer;
   }
   .main-content {
@@ -46,7 +46,12 @@
       </md-toolbar>
 
       <md-list id="sidebar">
-        <md-list-item v-for="page in pages" @click="sidenavclick" :id="page.id" :class="page.class">
+        <md-list-item
+          v-for="page in pages"
+          @click="sidenavclick"
+          :id="page.id"
+          :class="page.class"
+          :href="'#/'+page.id">
           <md-icon>{{page.icon}}</md-icon> <span>{{page.name}}</span>
         </md-list-item>
       </md-list>
@@ -117,9 +122,13 @@ var vm = new Vue({
   },
   methods:{
     sidenavclick: function(e) {
-      var path = e.path[0].parentNode.id;
+      //Object.keys(e).forEach(function(key) {
+      //  console.log(key, e[key]);
+      //});
+      //var path = e.path[0].parentNode.id;
       this.$refs.sidebar.toggle();
-      setpage(path);
+      //sethash(path);
+      //setpage(path);
     }
   }
 })
@@ -134,7 +143,13 @@ function getUrl(aUrl, aCallback) {
     anHttpRequest.open( "GET", aUrl, true );
     anHttpRequest.send( null );
 }
-
+function sethash(newhash) {
+  if (newhash == "home") {
+    window.location.hash = "#/";
+  } else {
+    window.location.hash = "#/"+newhash;
+  }
+}
 function setpage(newpage) {
   newpage = newpage || "home"
   getUrl('pages/' + newpage, function(a) {
@@ -157,15 +172,16 @@ function setpage(newpage) {
       document.getElementById(newpage).classList.add('md-primary');
       //$('.md-sidenav .md-sidenav-content ul .md-list-item#'+newpage).addClass('md-primary')
       vm.currentView = "page-"+newpage;
-      if (newpage == "home") {
-        window.location.hash = "#/";
-      } else {
-        window.location.hash = "#/"+newpage;
-      }
   });
 }
+window.onhashchange = function() {
+  console.log('hash change')
+  setpage(window.location.hash.substr(2));
+}
+if (window.location.hash == "") {
+  window.location.hash = "#/";
+}
 
-window.location.hash = window.location.hash || "#/"
 var currentpage = window.location.hash.substr(2);
 setpage(currentpage);
 </script>
