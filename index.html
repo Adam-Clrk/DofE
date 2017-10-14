@@ -32,12 +32,21 @@
     cursor: pointer;
   }
   .main-content {
-    padding: 16px;
+    /*padding: 16px;*/
   }
   .md-card {
     margin: 0 4px 16px;
   }
-</style>
+  .card-container {
+    max-width: 250px;
+    float: left;
+  }
+  .card-container-container {
+  }
+  .md-headline {
+    display: block;
+  }
+  </style>
 </head>
 <body>
   <div class="app-viewport" id="app">
@@ -156,12 +165,15 @@ function sethash(newhash) {
 function setpage(newpage) {
   newpage = newpage || "home"
   getUrl('pages/' + newpage, function(a) {
-  //$.get( 'pages/' + newpage, (a) => {
-    //console.log(a)
+    getUrl('pages/' + newpage + '.json', function(b) {
+      //$.get( 'pages/' + newpage, (a) => {
+      //console.log(a)
       //Create the new component using the template we received
       Vue.component("page-"+newpage, {
           template: a,
+          data: function() {return JSON.parse(b)},
       });
+      //console.log(JSON.parse(b))
 
       //And then change the page to that component
       var sidebar = document.getElementById('sidebar');
@@ -175,6 +187,7 @@ function setpage(newpage) {
       document.getElementById(newpage).classList.add('md-primary');
       //$('.md-sidenav .md-sidenav-content ul .md-list-item#'+newpage).addClass('md-primary')
       vm.currentView = "page-"+newpage;
+    });
   });
 }
 window.onhashchange = function() {
