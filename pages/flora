@@ -1,19 +1,336 @@
 <md-tabs md-elevation="3">
   <md-tab md-label="Text">
     <span class="md-headline">Flora</span>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_091748.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <!--start-->
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_091748.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_091758.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_091811.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_092351.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_093916.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_094638.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_095244.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_095250.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_101016_Richtone(HDR).jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_101356.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_101430.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_103538.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_103940.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_110246.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_113956.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_114204.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_114656.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_115427.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_115737.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_132155.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170722_145359.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_080822.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_082953.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_091202.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_091324.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_091419.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_091546.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_091637.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_092636.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_093842.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_094540.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_094720.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_104908.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_104910.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_110544.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_114522.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_114526.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_114537.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_124558.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_131324.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_135258.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_135300.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170723_135311.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170724_081254.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170724_100655.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170724_100702.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170724_101414.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170724_113540.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="/DofE-Photos/flora/20170724_134204.jpg">
+      </md-card-media>
+      <md-card-content>description</md-card-content>
+    </md-card>
+
+    <!--end-->
+
+    <md-card>
+      <md-card-media-cover md-solid>
+        <md-card-media md-ratio="3:4">
+          <img src="/DofE-Photos/flora/20170722_091748.jpg" alt="Skyscraper">
+        </md-card-media>
+        <md-card-area>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea nostrum.
+          </md-card-content>
+        </md-card-area>
+      </md-card-media-cover>
+    </md-card>
+
     <p class="md-body-1">
-     Introduction and shit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Introduction and shit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <span class="md-subheading">Subheading Here</span>
     <p class="md-body-1">
-     More in detail shit here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      More in detail shit here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <span class="md-subheading">Second Subheading Here</span>
     <p class="md-body-1">
-     Even more in detail shit here. Describe some pictures here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Even more in detail shit here. Describe some pictures here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
   </md-tab>
   <md-tab md-label="Pictures">
-    <md-image md-src="https://adam-clrk.github.io/DofE-Photos/20170722_113956.jpg"></md-image>
+    <md-image md-src="/DofE-Photos/fauna/20170722_113956.jpg"></md-image>
   </md-tab>
 </md-tabs>
