@@ -12,7 +12,7 @@
           <md-card-media>
             <img :src="'/DofE-Photos/flora/'+tab.dir+image.name">
           </md-card-media>
-          <md-card-content>description</md-card-content>
+          <md-card-content>{{image.description}}</md-card-content>
         </md-card>
         <!--<p>test</p>-->
       </md-layout>
