@@ -1,6 +1,5 @@
 <main class="main-content">
 <img src="/DofE-Photos/flora/20170723_093842.jpg">
-<div style = "padding: 10px;">
   <span class="md-headline">Home</span>
 <p class="md-body-1">
  A project concerning the various species of flora and fauna found during our DofE expedition.
@@ -27,5 +26,4 @@
   taken by ourselves throughout the expedition, associated with them.
   Now click through the tabs located in the sidebar to progress.
 </p>
-</div>
 </main>
