@@ -10,7 +10,7 @@
         md-flex-xlarge="10">
         <md-card>
           <md-card-media>
-            <img :src="'/DofE-Photos/flora/'+tab.dir+image.name">
+            <img :src="'/DofE-Photos/flora/preview/'+tab.dir+image.name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
         </md-card>
