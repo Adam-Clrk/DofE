@@ -1,5 +1,6 @@
 <main class="main-content">
 <img src="/DofE-Photos/flora/20170723_093842.jpg">
+<div style = "padding: 10px;">
   <span class="md-headline">Home</span>
 <p class="md-body-1">
  A project concerning the various species of flora and fauna found during our DofE expedition.
@@ -7,10 +8,12 @@
 <p class = "md-body-1">
   By Team 10:
 </p>
-<ul>
+<ul style = "display: inline-block; width = 50%;">
   <li>Ludo Adams</li>
   <li>Sam Baker</li>
   <li>Aidan Birdi</li>
+</ul>
+<ul style = "display: inline-block; width = 50%;">
   <li>Adam Clarke</li>
   <li>Zac Fraser-Attewell</li>
   <li>Simeon Whitbourn</li>
@@ -19,7 +22,10 @@
 <p class="md-body-1">
   Throughout our DofE experience, we were planning to be observant to flora and fauna in the area.
   We have documented, recorded and researched many of the natural organisms we have found and the experience did not render underwhelming.
-  In this webapp, we will show the variety of many of the plants and animals that we found throughout the Ashdown Forest (and the surrounding area) and our comments upon them along with the countless number of photographs, taken by ourselves throughout the expedition, associated with them.
+  In this webapp, we will show the variety of many of the plants and animals that we found throughout the Ashdown Forest
+  (and the surrounding area) and our comments upon them along with the countless number of photographs or fauna, flora and woodland structures,
+  taken by ourselves throughout the expedition, associated with them.
   Now click through the tabs located in the sidebar to progress.
 </p>
+</div>
 </main>
