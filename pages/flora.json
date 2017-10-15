@@ -2,8 +2,8 @@
   "tabs" : [
     {
       "name": "Flowers",
-      "dir": "flowers/", 
-      "images" : [
+      "dir": "flowers/",
+      "images": [
         {
           "name" : "20170722_091758.jpg",
           "description" : ""
@@ -38,15 +38,15 @@
         },
         {
           "name" : "20170723_080822.jpg",
-          "description" : ""
+          "description" : "A mixture of low-lying shrubbery including; Holy bush, brambles as well as a type of long grass."
         },
         {
           "name" : "20170723_110544.jpg",
-          "description" : ""
+          "description" : "We identified this small pink flower with five petals as a dog rose, also known as Rosa canina which is from the Rosacae family. We found out that this species of flower grows in hedgerows and on woodland edges and flowers around July, this supports what we saw on the expedition."
         },
         {
           "name" : "20170723_114522.jpg",
-          "description" : ""
+          "description" : "This is a large patch of Oxeye Daisies (Leucanthemum vulgare) from the Asteraceae family, as well as a smaller patch of purple Plume thistles (Cirsium) from the family Asteraceae, these species commonly grow in meadows around the UK."
         },
         {
           "name" : "20170723_135258.jpg",
@@ -58,16 +58,24 @@
         },
         {
           "name" : "20170723_135311.jpg",
-          "description" : ""
+          "description" : "This tall pink flower is known commonly as Fireweed but the scientific name is Chamerion angustifolium which is part of the Willowherbs family. We noticed that this flower usually grows in groups together near bushes and on the edge of fields."
         },
         {
           "name" : "20170724_113540.jpg",
-          "description" : ""
+          "description" : "Another small shrub with little pink flowers and leaves which had a rough texture. In the background there is a large blackberry bush."
         }
       ]
     },
     {
-      "name" : "Woodland Structures"
+      "name" : "Woodland Structures",
+      "dir": "",
+      "images": [
+        {"name": "20170723_091202.jpg", "description": "A group of fallen trees which have created a small clearing in the woodland."},
+        {"name": "20170723_091324.jpg", "description": "Two different natural tree arches formed up of the branches of various separate plants. These linked together over the path to create a natural doorway."},
+        {"name": "20170723_091419.jpg", "description": " same as above"},
+        {"name": "20170723_091637.jpg", "description": "Another fallen tree resting around a group of ferns and long grass."},
+        {"name": "20170723_092636.jpg", "description": "An interesting formation of natural wooden spikes possibly made from a weed which has dried and dried out to create a barbed wire look around the base of this tree."}
+      ]
     },
     {
       "name" : "Trees"
