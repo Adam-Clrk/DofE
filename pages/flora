@@ -6,7 +6,8 @@
         md-flex-xsmall="50"
         md-flex-small="33"
         md-flex-medium="25"
-        md-flex-large="20">
+        md-flex-large="20"
+        md-flex-xlarge="10">
         <md-card>
           <md-card-media>
             <img :src="'/DofE-Photos/flora/'+tab.dir+image.name">
