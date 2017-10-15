@@ -2,7 +2,7 @@
   "tabs" : [
     {
       "name": "Flowers",
-      "dir": "flowers/",
+      "dir": "",
       "images": [
         {
           "name" : "20170722_091758.jpg",
@@ -78,7 +78,13 @@
       ]
     },
     {
-      "name" : "Trees"
+      "name": "Trees",
+      "dir": "",
+      "images": [
+        {"name": "20170724_134204.jpg", "description": "We identified this tree to be a blackthorn/sloe tree which is also known as Prunus spinose of the Rosaceae family. This plant is native to the UK and changes very differently. The tree has small black/blue berries, this particular tree was found near the Weir Wood Reservoir."},
+        {"name": "", "description": ""},
+        {"name": "20170722_145359.jpg", "description": "A row of Redwood trees – These huge trees are also known as Sequoioideae and are a subfamily of coniferous trees within the family Cupressaceae. The redwood species contains the largest and tallest in the world and can live for thousands of years. We believe the trees in this photo are of a more common smaller species of redwood."}
+      ]
     },
     {
       "name" : "Other Plants"
