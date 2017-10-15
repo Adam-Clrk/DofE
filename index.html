@@ -84,8 +84,10 @@
         </div>
       </md-toolbar>
     </md-whiteframe>
-      <div :is="currentView"></div>
+      <md-layout md-gutter>
+        <div :is="currentView"></div>
       <!--<router-view></router-view>-->
+    </md-layout>
     </main>
   </div>
 <script>
