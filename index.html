@@ -31,8 +31,8 @@
   li.md-list-item,button.md-button {
     cursor: pointer;
   }
-  .main-content {
-    /*padding: 16px;*/
+  main.main-content {
+    padding: 16px;
   }
   .md-card {
     margin: 0 4px 16px;
@@ -84,10 +84,8 @@
         </div>
       </md-toolbar>
     </md-whiteframe>
-      <md-layout md-gutter>
-        <div :is="currentView"></div>
+      <div :is="currentView"></div>
       <!--<router-view></router-view>-->
-    </md-layout>
     </main>
   </div>
 <script>
