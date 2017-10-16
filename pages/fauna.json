@@ -42,16 +42,20 @@
                "landscape" : true,
                "name" : "20170722_155326.jpg"
             },
+            {"name" : "goose1.png","landscape" : false},
+            {"name" : "goose2.png","landscape" : false},
             {
                "landscape" : true,
                "description" : "We identified this species of duck to be a male Gadwall, scientifically known as Anas strepera. They come from the Anatidae family and are frequently found in the Midlands and south-east of England.",
                "name" : "20170722_155333.jpg"
             },
+            {"name" : "duck1.png","landscape" : true}
             {
                "landscape" : false,
                "description" : "This is a species of Longhorn beetle, most likely the Tanbark Borer from the Cerambycidae family, also known as Phymatodes testaceus. This type of beetle is usually seen most from May to July and are a local species to southern England.",
                "name" : "20170723_114331.jpg"
             },
+            {"name" : "beetle1.png","landscape" : true}
             {
                "landscape" : true,
                "description" : "This species of Deer is known as the Fallow deer (scientifically known as Dama dama) and belongs to the Cervidae family. It is native to Western Eurasia but has now been introduved to other parts of the world. These deer are widespread across England and Wales but are patchy in Scotland.",

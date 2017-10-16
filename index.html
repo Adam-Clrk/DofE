@@ -31,7 +31,7 @@
   <link href="dist/lity.css" rel="stylesheet">
   <script src="vendor/jquery.js"></script>
   <script src="dist/lity.js"></script>
-  <script src="jquery.panzoom.min.js"></script>
+  <script src="dist/jquery.panzoom.min.js"></script>
   <style>
   li.md-list-item,button.md-button {
     cursor: pointer;
@@ -239,6 +239,7 @@ setpage(currentpage);
 
 $(document).on('lity:ready', function(e, lightbox) {
   console.log("panzoom");
+  console.log(lightbox)
   lightbox.find('img').panzoom();
 });
 </script>
