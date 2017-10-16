@@ -24,14 +24,16 @@
 				},
 				{
 					"name": "20170722_103940.jpg",
+          "landscape": true,
 					"description": ""
 				},
+        {
+          "name": "20170722_114656.jpg",
+          "description": ""
+        },
 				{
 					"name": "20170722_114204.jpg",
-					"description": ""
-				},
-				{
-					"name": "20170722_114656.jpg",
+          "landscape": true,
 					"description": ""
 				},
 				{
@@ -44,6 +46,7 @@
 				},
 				{
 					"name": "20170723_114522.jpg",
+          "landscape": true,
 					"description": "This is a large patch of Oxeye Daisies (Leucanthemum vulgare) from the Asteraceae family, as well as a smaller patch of purple Plume thistles (Cirsium) from the family Asteraceae, these species commonly grow in meadows around the UK."
 				},
 				{
@@ -52,10 +55,12 @@
 				},
 				{
 					"name": "20170724_113540.jpg",
+          "landscape": true,
 					"description": "Another small shrub with little pink flowers and leaves which had a rough texture. In the background there is a large blackberry bush."
 				},
         {
           "name": "20170723_114537.jpg",
+          "landscape": true,
           "description": "Some more Oxeye daisies mixed in amongst the long grass."
         }
 			]
@@ -65,26 +70,27 @@
 			"dir": "",
 			"images": [{
 					"name": "20170723_091202.jpg",
+          "landscape": true,
 					"description": "A group of fallen trees which have created a small clearing in the woodland."
 				},
 				{
-					"name": "20170723_091324.jpg",
+					"names": ["20170723_091324.jpg","20170723_091419.jpg"],
+          "landscape": true,
 					"description": "Two different natural tree arches formed up of the branches of various separate plants. These linked together over the path to create a natural doorway."
 				},
 				{
-					"name": "20170723_091419.jpg",
-					"description": " same as above"
-				},
-				{
 					"name": "20170723_091637.jpg",
+          "landscape": true,
 					"description": "Another fallen tree resting around a group of ferns and long grass."
 				},
 				{
 					"name": "20170723_092636.jpg",
+          "landscape": true,
 					"description": "An interesting formation of natural wooden spikes possibly made from a weed which has dried and dried out to create a barbed wire look around the base of this tree."
 				},
 				{
 					"name": "20170723_093842.jpg",
+          "landscape": true,
 					"description": "A coniferous woodland made up of tall trees and many ferns covering the forest floor. Moss can also be seen on some of the trees."
 				}
 			]
@@ -101,12 +107,9 @@
 					"description": "A row of Redwood trees – These huge trees are also known as Sequoioideae and are a subfamily of coniferous trees within the family Cupressaceae. The redwood species contains the largest and tallest in the world and can live for thousands of years. We believe the trees in this photo are of a more common smaller species of redwood."
 				},
 				{
-					"name": "20170723_104908.jpg",
+					"names": ["20170723_104908.jpg","20170723_104910.jpg"],
+          "landscape": true,
 					"description": "A very old Oak tree which is covered which thick ivy, most of which is now dead and has dried out. Right – ghost of chess."
-				},
-				{
-					"name": "20170723_104910.jpg",
-					"description": "above"
 				}
 
 			]
@@ -114,40 +117,48 @@
 		{
 			"name": "Other Plants",
 			"dir": "",
-			"images": [{
+			"images": [
+        {
 					"name": "20170723_082953.jpg",
 					"description": "A large bramble bush with blackberries located on the edge of a woodland. This species is also known as the Rubus fruticosus and is part of the Rosaceae family. This species is actually made up of over 300 microspecies which have been recognised in the UK which can be identified through leaf shape and plant."
 				},
 				{
 					"name": "20170723_094540.jpg",
+          "landscape": true,
 					"description": "This vast area of ferns on the edge of Ashdown forest is known as Heathland and consists of many different types of fern including Blechnum spicant and Dryopteris which are also found in other countries across the Globe."
 				},
+        {
+          "name": "20170723_091546.jpg",
+          "description": "A small patch of moss on the side of a footpath. Mosses are leaf like complexes and are like mini forests which offer habitat for other plants and insects. The moss in the photo may be Mnium hornum which frequently covers large areas of woodland floor."
+        },
 				{
 					"name": "20170723_094720.jpg",
+          "landscape": true,
 					"description": "above"
 				},
 				{
-					"name": "20170723_091546.jpg",
-					"description": "A small patch of moss on the side of a footpath. Mosses are leaf like complexes and are like mini forests which offer habitat for other plants and insects. The moss in the photo may be Mnium hornum which frequently covers large areas of woodland floor."
-				},
-				{
 					"name": "20170723_114526.jpg",
+          "landscape": true,
 					"description": "A large meadow of wildflowers or varying species including Oxeye Daisies, Plume thistles as well as a reddish-brown species of grass which was commonly seen throughout our expedition."
 				},
         {
           "name": "20170723_131324.jpg",
+          "landscape": true,
           "description": "An interesting field of crops which we came across during day two of our expedition, we aren’t certain what this crop is but it looked dead even though there was a huge field of it… This was the only time we came across this crop."
         },
         {
           "name": "20170724_100655.jpg",
+          "landscape": true,
           "description": "We came across a small lake which had a large amount of lily pads growing as well as white water lilies, also known as Nymphaeaceae from the Nymphaeales Order. Of all the bodies of water we passed during our expedition this was the only one which contained water lilies."
         },
         {
           "name": "20170724_100702.jpg",
+          "landscape": true,
           "description": "above"
         },
         {
           "name": "20170724_101414.jpg",
+          "landscape": true,
           "description": "A huge field of wheat, which is the most commonly grown crop in the UK."
         }
 			]

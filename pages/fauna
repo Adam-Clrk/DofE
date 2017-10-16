@@ -3,14 +3,26 @@
     <md-layout md-gutter>
       <md-layout
         v-for="image in tab.images"
-        md-flex-xsmall="50"
-        md-flex-small="33"
-        md-flex-medium="25"
-        md-flex-large="20"
-        md-flex-xlarge="10">
-        <md-card>
+        v-bind:md-flex-xsmall="image.landscape ?  100 : 50"
+        v-bind:md-flex-small="image.landscape ?  100 : 50"
+        v-bind:md-flex-medium="image.landscape ?  50 : 25"
+        md-flex-large="33"
+        md-flex-xlarge="20">
+        <md-card
+          v-if="image.name">
           <md-card-media>
             <img :src="'/DofE-Photos/fauna/preview/'+tab.dir+image.name">
+          </md-card-media>
+          <md-card-content>{{image.description}}</md-card-content>
+        </md-card>
+
+        <md-card
+          v-if="image.names">
+          <md-card-media>
+            <img
+              v-for="name in image.names"
+              class="sidebyside"
+              :src="'/DofE-Photos/fauna/preview/'+tab.dir+name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
         </md-card>
