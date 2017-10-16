@@ -60,12 +60,7 @@
             {
                "landscape" : true,
                "description" : "This species of Deer is known as the Fallow deer (scientifically known as Dama dama) and belongs to the Cervidae family. It is native to Western Eurasia but has now been introduved to other parts of the world. These deer are widespread across England and Wales but are patchy in Scotland.",
-               "name" : "20170724_130104.jpg"
-            },
-            {
-               "name" : "20170724_130123.jpg",
-               "description" : "",
-               "landscape" : true
+               "names" : ["20170724_130104.jpg", "20170724_130123.jpg"]
             }
          ],
          "dir" : "",

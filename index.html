@@ -53,8 +53,28 @@
   .md-card {
     width: 100%;
   }
-  .sidebyside {
-    width: 50% !important;
+  @media (min-width: 600px) {
+    .sidebyside {
+      width: 50% !important;
+    }
+  }
+  .frontimage {
+    width: 400px;
+    float: right;
+    margin: 10px;
+    display: block;
+  }
+  @media (max-width: 944px) {
+    .frontimage {
+      width: 80%;
+      float: none;
+      margin: auto;
+    }
+  }
+  @media (max-width: 600px) {
+    .frontimage {
+      width: 100%
+    }
   }
   </style>
 </head>

@@ -4,9 +4,9 @@
       <md-layout
         v-for="image in tab.images"
         v-bind:md-flex-xsmall="image.landscape || image.names ?  100 : 50"
-        v-bind:md-flex-small="image.landscape ?  100 : 50"
-        v-bind:md-flex-medium="image.landscape ?  50 : 25"
-        v-bind:md-flex-large="image.landscape ?  50 : 25"
+        v-bind:md-flex-small="image.landscape || image.names ?  100 : 50"
+        v-bind:md-flex-medium="image.landscape || image.names ?  50 : 25"
+        v-bind:md-flex-large="image.landscape || image.names ?  50 : 25"
         md-flex-xlarge="20">
         <md-card
           v-if="image.name">
@@ -21,7 +21,7 @@
           <md-card-media>
             <img
               v-for="name in image.names"
-              :class="{'sidebyside':image.landscape}"
+              :class="{'sidebyside':image.names}"
               :src="'https://adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
