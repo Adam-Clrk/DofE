@@ -41,12 +41,8 @@
 				"name": "20170722_155326.jpg"
 			},
 			{
-				"name": "goose1.png",
-				"landscape": false
-			},
-			{
-				"name": "goose2.png",
-				"landscape": false
+				"names": ["goose1.png","goose2.png"],
+				"landscape": true
 			},
 			{
 				"landscape": true,
