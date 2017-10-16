@@ -238,9 +238,11 @@ var currentpage = window.location.hash.substr(2);
 setpage(currentpage);
 
 $(document).on('lity:ready', function(e, lightbox) {
-  console.log("panzoom");
-  console.log(lightbox)
-  lightbox.find('img').panzoom();
+  //console.log("panzoom");
+  //console.log(lightbox);
+  $('.lity-container', lightbox.element()).panzoom();
+  //$('img', lightbox.element()).panzoom()
+  //lightbox.element().panzoom();
 });
 </script>
 </body>
