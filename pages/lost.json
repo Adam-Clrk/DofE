@@ -2,32 +2,18 @@
    "tabs" : [
       {
          "images" : [
-            {
-               "description" : "",
-               "landscape" : false,
-               "name" : ""
-            }
-         ],
-         "dir" : "",
-         "name" : "other photos"
-      },
-      {
-         "images" : [
            {"landscape":true,"name":"1.png"},
            {"landscape":true,"name":"aidan_lost_in_minceraft.png"},
            {"landscape":true,"name":"2.png"},
            {"landscape":true,"name":"3.png"},
            {"landscape":true,"name":"Untitled.png"},
            {"landscape":true,"name":"why_the_moon_landing_was_real.png"},
-           {"landscape":true,"name":"army_guy.png"},
            {"landscape":true,"name":"rick.png"},
            {"landscape":true,"name":"4.png"},
            {"landscape":true,"name":"aaaaa.jpg"},
-           {"landscape":true,"name":"d-aidan.png"},
            {"landscape":true,"name":"5.png"},
            {"landscape":true,"name":"familysons.png"},
            {"landscape":true,"name":"6.png"},
-           {"landscape":true,"name":"paul.png"},
            {"landscape":true,"name":"7.png"},
            {"landscape":true,"name":"8.png"},
            {"landscape":true,"name":"9.png"},
@@ -35,7 +21,6 @@
            {"landscape":true,"name":"10.png"},
            {"landscape":true,"name":"news_2.png"},
            {"landscape":true,"name":"weewee.png"},
-           {"landscape":true,"name":"non.png"},
            {"landscape":true,"name":"poot.png"},
            {"landscape":true,"name":"drumpf.png"},
            {"landscape":true,"name":"poooo.png"},
@@ -44,6 +29,12 @@
            {"landscape":true,"name":"24738552-Inside-of-the-french-supermarket-Stock-Photo-supermarket-food-packaging.jpg"},
            {"landscape":true,"name":"He_Tatooine_21.jpg"},
            {"landscape":true,"name":"aidan_in_starwars.png"}
+         ],
+         "removed": [
+           {"landscape":true,"name":"d-aidan.png"},
+           {"landscape":true,"name":"army_guy.png"},
+           {"landscape":true,"name":"paul.png"},
+           {"landscape":true,"name":"non.png"}
          ],
          "dir" : "",
          "name" : "Aidan is Lost"
