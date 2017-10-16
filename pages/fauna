@@ -11,10 +11,10 @@
         <md-card
           v-if="image.name">
           <md-card-media>
-            <a
-              :href="'https://adam-clrk.github.io/DofE-Photos/fauna/'+tab.dir+image.name">
-              <img :src="'https://adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+image.name">
-            </a>
+            <img
+              :src="'https://adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+image.name"
+              data-lity
+              :data-lity-target="'https://adam-clrk.github.io/DofE-Photos/flora/'+tab.dir+image.name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
         </md-card>
@@ -22,13 +22,12 @@
         <md-card
           v-if="image.names">
           <md-card-media>
-            <a
+            <img
               v-for="name in image.names"
-              :href="'https://adam-clrk.github.io/DofE-Photos/fauna/'+tab.dir+name">
-              <img
-                :class="{'sidebyside':image.names}"
-                :src="'https://adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+name">
-            </a>
+              :class="{'sidebyside':image.names}"
+              :src="'https://adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+name"
+              data-lity
+              :data-lity-target="'https://adam-clrk.github.io/DofE-Photos/fauna/'+tab.dir+name">
           </md-card-media>
           <md-card-content v-if="image.description">{{image.description}}</md-card-content>
         </md-card>
