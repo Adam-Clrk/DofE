@@ -11,7 +11,7 @@
         <md-card
           v-if="image.name">
           <md-card-media>
-            <img :src="'//adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+image.name">
+            <img :src="'https://adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+image.name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
         </md-card>
@@ -22,7 +22,7 @@
             <img
               v-for="name in image.names"
               :class="{'sidebyside':image.landscape}"
-              :src="'//adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+name">
+              :src="'https://adam-clrk.github.io/DofE-Photos/fauna/preview/'+tab.dir+name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
         </md-card>
