@@ -4,13 +4,8 @@
          "images" : [
             {
                "description" : "A small group of horses in a field which we passed through during our walk.The horse, known scientifically as Equus ferus caballus, is one of two subspecies of Equus ferus. We think these horses are mostlikely used for riding.",
-               "landscape" : true,
-               "name" : "20170722_092806.jpg"
-            },
-            {
-               "name" : "20170722_092811.jpg",
-               "landscape" : true,
-               "description" : "same as above"
+               "landscape" : false,
+               "names" : ["20170722_092806.jpg","20170722_092811.jpg"]
             },
             {
                "name" : "20170722_093256.jpg",
