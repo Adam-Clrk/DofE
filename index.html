@@ -31,6 +31,7 @@
   <link href="dist/lity.css" rel="stylesheet">
   <script src="vendor/jquery.js"></script>
   <script src="dist/lity.js"></script>
+  <script src="jquery.panzoom.min.js"></script>
   <style>
   li.md-list-item,button.md-button {
     cursor: pointer;
@@ -82,6 +83,9 @@
   }
   .md-card-content:empty {
     display: none;
+  }
+  .lity-active, .lity-active body {
+    overflow: hidden;
   }
   </style>
 </head>
@@ -232,6 +236,11 @@ if (window.location.hash == "") {
 
 var currentpage = window.location.hash.substr(2);
 setpage(currentpage);
+
+$(document).on('lity:ready', function(e, lightbox) {
+  console.log("panzoom");
+  lightbox.find('img').panzoom();
+});
 </script>
 </body>
 </html>
