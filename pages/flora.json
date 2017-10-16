@@ -4,8 +4,7 @@
          "name" : "Flowers",
          "dir" : "",
          "images" : [
-           {"name":"20170722_091758.jpg","description":"A very pretty pink flower which we believe to be an Arcado Pink Agastache flower. Some of them have started to redden, but a few have maintened the heavy pink colour."},
-           {"name":"20170722_091811.jpg","description":"Another picture of the previous flower."},
+           {"names":["20170722_091758.jpg","20170722_091811.jpg"],"landscape" : true,"description":"A very pretty pink flower which we believe to be an Arcado Pink Agastache flower. Some of them have started to redden, but a few have maintened the heavy pink colour."},
            {"name":"20170722_093916.jpg","description":"Another pink flower which we have identified to be in the Nerine genus. The tip of the flower looks similar to the bluebell, as it curls down due to it's weight."},
            {"name":"20170722_094638.jpg","description":"A spikey pink flower. This is the Silybum marianum, or more commonly known as a milk thistle. Luckily none of us touched it!"},
            {"name":"20170722_101430.jpg","description":"Two white flowers, possibly of the Bindweed genus. As you can see, there are small raindrops on them."},
