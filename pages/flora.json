@@ -4,40 +4,15 @@
          "name" : "Flowers",
          "dir" : "",
          "images" : [
-            {
-               "name" : "20170722_091758.jpg",
-               "description" : ""
-            },
-            {
-               "description" : "",
-               "name" : "20170722_091811.jpg"
-            },
-            {
-               "description" : "",
-               "name" : "20170722_093916.jpg"
-            },
-            {
-               "name" : "20170722_094638.jpg",
-               "description" : ""
-            },
-            {
-               "name" : "20170722_101430.jpg",
-               "description" : ""
-            },
-            {
-               "description" : "",
-               "landscape" : true,
-               "name" : "20170722_103940.jpg"
-            },
-            {
-               "description" : "",
-               "name" : "20170722_114656.jpg"
-            },
-            {
-               "name" : "20170722_114204.jpg",
-               "landscape" : true,
-               "description" : ""
-            },
+           {"name":"20170722_091758.jpg","description":"A very pretty pink flower which we believe to be an Arcado Pink Agastache flower. Some of them have started to redden, but a few have maintened the heavy pink colour."},
+           {"name":"20170722_091811.jpg","description":"Another picture of the previous flower."},
+           {"name":"20170722_093916.jpg","description":"Another pink flower which we have identified to be in the Nerine genus. The tip of the flower looks similar to the bluebell, as it curls down due to it's weight."},
+           {"name":"20170722_094638.jpg","description":"A spikey pink flower. This is the Silybum marianum, or more commonly known as a milk thistle. Luckily none of us touched it!"},
+           {"name":"20170722_101430.jpg","description":"Two white flowers, possibly of the Bindweed genus. As you can see, there are small raindrops on them."},
+           {"name":"20170722_103940.jpg","description":"Some white yarrow weeds. Although quite pretty, they are still weeds, and very common in this area."},
+           {"name":"20170722_114204.jpg","description":"Some bluebells in a wood. This was the optimal time of year for bluebells to grow."},
+           {"name":"20170722_114656.jpg","description":"A roadside pink flower. This has been identified as the cosmo flower."},
+
             {
                "name" : "20170723_080822.jpg",
                "description" : "A mixture of low-lying shrubbery including; Holy bush, brambles as well as a type of long grass."
@@ -96,7 +71,10 @@
                "landscape" : true,
                "name" : "20170723_093842.jpg",
                "description" : "A coniferous woodland made up of tall trees and many ferns covering the forest floor. Moss can also be seen on some of the trees."
-            }
+            },
+            {"name":"20170722_110246.jpg","description":"A very scary root formation... we were very careful not to fall onto this!"},
+            {"name":"20170722_092351.jpg","description":"A strange tree formation, which covers a hole in the ground. They are sturdy enough to be walked on, although we were not sure how they were formed."}
+
          ],
          "name" : "Woodland",
          "dir" : ""
@@ -118,7 +96,10 @@
                ],
                "landscape" : true,
                "description" : "A very old Oak tree which is covered which thick ivy, most of which is now dead and has dried out. Right – ghost of chess."
-            }
+            },
+            {"name":"20170722_103538.jpg","description":"A beautiful picture of a pathway on a nice sunny day. We were lucky at this point to have a smooth pathway as opposed to a muddy track. In this picture there is also a mixed variety of trees including a cluster of Beech trees on the left."},
+            {"name":"20170722_095244.jpg","description":"The way the sunlight reflects off these leaves makes it look like there are holes in the trees! In reality, the leaves are those with a similar design to maple leaves."}
+
          ],
          "name" : "Trees",
          "dir" : ""
@@ -167,7 +148,16 @@
                "description" : "A huge field of wheat, which is the most commonly grown crop in the UK.",
                "landscape" : true,
                "name" : "20170724_101414.jpg"
-            }
+            },
+            {"name":"20170722_095250.jpg","description":"Some ferns and stinging nettles after a lot of rain. It rained a lot on our expedition, so these pictures were not hard to come by."},
+            {"name":"20170722_101016_Richtone(HDR).jpg","description":"A long straight pathway which cuts through a mixed woodland. "},
+            {"name":"20170722_101356.jpg","description":"Some very grey dead plants. We have identified these as stinging nettles."},
+            {"name":"20170722_113956.jpg","description":"The sun really lights up these leaves. There are also some ferns on the right-hand side."},
+            {"name":"20170722_115427.jpg","description":"Very strong wind made all this long grass move! Walking through the long grass was surprisingly difficult. Meadows like this were very common during our walks."},
+            {"name":"20170722_115737.jpg","description":"Some blackberries and some thorns. It was very tempting to stop for a snack here!"},
+            {"name":"20170722_132155.jpg","description":"This clay ridge not only has trees growing out the side of it but also has a large amount of moss and a small amount of lichen on the centre rock, we think this is due to the large amount of moisture present in this area."},
+            {"name":"20170722_091748.jpg","description":"A very dark green bush. We have identified them as conifers, and the light hits the bottom in an interesting way."}
+
          ],
          "dir" : "",
          "name" : "Other Plants"
