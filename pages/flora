@@ -24,7 +24,7 @@
               :class="{'sidebyside':image.names}"
               :src="'https://adam-clrk.github.io/DofE-Photos/flora/preview/'+tab.dir+name">
           </md-card-media>
-          <md-card-content>{{image.description}}</md-card-content>
+          <md-card-content v-if="image.description">{{image.description}}</md-card-content>
         </md-card>
         <!--<p>test</p>-->
       </md-layout>
