@@ -1,0 +1,38 @@
+<md-tabs md-elevation="3">
+  <md-tab v-for="tab in tabs" :md-label="tab.name">
+    <md-layout md-gutter>
+      <md-layout
+        v-for="image in tab.images"
+        v-bind:md-flex-xsmall="image.landscape || image.names ?  100 : 50"
+        v-bind:md-flex-small="image.landscape || image.names ?  100 : 50"
+        v-bind:md-flex-medium="image.landscape || image.names ?  50 : 25"
+        v-bind:md-flex-large="image.landscape || image.names ?  50 : 25"
+        md-flex-xlarge="20">
+        <md-card
+          v-if="image.name">
+          <md-card-media>
+            <img
+              :src="'https://adam-clrk.github.io/DofE-Photos/lost/preview/'+tab.dir+image.name"
+              data-lity
+              :data-lity-target="'https://adam-clrk.github.io/DofE-Photos/lost/'+tab.dir+image.name">
+          </md-card-media>
+          <md-card-content>{{image.description}}</md-card-content>
+        </md-card>
+
+        <md-card
+          v-if="image.names">
+          <md-card-media>
+            <img
+              v-for="name in image.names"
+              :class="{'sidebyside':image.names}"
+              :src="'https://adam-clrk.github.io/DofE-Photos/fauna/lost/'+tab.dir+name"
+              data-lity
+              :data-lity-target="'https://adam-clrk.github.io/DofE-Photos/lost/'+tab.dir+name">
+          </md-card-media>
+          <md-card-content v-if="image.description">{{image.description}}</md-card-content>
+        </md-card>
+        <!--<p>test</p>-->
+      </md-layout>
+    </md-layout>
+  </md-tab>
+</md-tabs>
