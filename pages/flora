@@ -6,7 +6,7 @@
         v-bind:md-flex-xsmall="image.landscape ?  100 : 50"
         v-bind:md-flex-small="image.landscape ?  100 : 50"
         v-bind:md-flex-medium="image.landscape ?  50 : 25"
-        md-flex-large="33"
+        v-bind:md-flex-large="image.landscape ?  50 : 25"
         md-flex-xlarge="20">
         <md-card
           v-if="image.name">
