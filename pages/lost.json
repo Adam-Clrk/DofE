@@ -45,7 +45,7 @@
            {"landscape":true,"name":"He_Tatooine_21.jpg"},
            {"landscape":true,"name":"aidan_in_starwars.png"}
          ],
-         "dir" : "lost",
+         "dir" : "lost/",
          "name" : "Aidan is Lost"
       }
    ]
