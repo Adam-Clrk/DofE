@@ -14,7 +14,7 @@
             <img
               :src="'http://img.dofe.adam.uk.eu.org/fauna/preview/'+tab.dir+image.name"
               data-lity
-              :data-lity-target="'http://img.dofe.adam.uk.eu.org/flora/'+tab.dir+image.name">
+              :data-lity-target="'http://img.dofe.adam.uk.eu.org/fauna/'+tab.dir+image.name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
         </md-card>
