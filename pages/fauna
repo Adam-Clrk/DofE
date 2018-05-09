@@ -12,9 +12,9 @@
           v-if="image.name">
           <md-card-media>
             <img
-              :src="'http://img.dofe.adam.uk.eu.org/fauna/preview/'+tab.dir+image.name"
+              :src="'https://img.dofe.adam.uk.eu.org/fauna/preview/'+tab.dir+image.name"
               data-lity
-              :data-lity-target="'http://img.dofe.adam.uk.eu.org/fauna/'+tab.dir+image.name">
+              :data-lity-target="'https://img.dofe.adam.uk.eu.org/fauna/'+tab.dir+image.name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
         </md-card>
@@ -25,9 +25,9 @@
             <img
               v-for="name in image.names"
               :class="{'sidebyside':image.names}"
-              :src="'http://img.dofe.adam.uk.eu.org/fauna/preview/'+tab.dir+name"
+              :src="'https://img.dofe.adam.uk.eu.org/fauna/preview/'+tab.dir+name"
               data-lity
-              :data-lity-target="'http://img.dofe.adam.uk.eu.org/fauna/'+tab.dir+name">
+              :data-lity-target="'https://img.dofe.adam.uk.eu.org/fauna/'+tab.dir+name">
           </md-card-media>
           <md-card-content v-if="image.description">{{image.description}}</md-card-content>
         </md-card>
