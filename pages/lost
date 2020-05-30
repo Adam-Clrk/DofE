@@ -12,9 +12,9 @@
           v-if="image.name">
           <md-card-media>
             <img
-              :src="'https://img.dofe.adam.uk.eu.org/lost/preview/'+tab.dir+image.name"
+              :src="'https://adam-clrk.github.io/DofE-Photos/lost/preview/'+tab.dir+image.name"
               data-lity
-              :data-lity-target="'https://img.dofe.adam.uk.eu.org/lost/'+tab.dir+image.name">
+              :data-lity-target="'https://adam-clrk.github.io/DofE-Photos/lost/'+tab.dir+image.name">
           </md-card-media>
           <md-card-content>{{image.description}}</md-card-content>
         </md-card>
@@ -25,9 +25,9 @@
             <img
               v-for="name in image.names"
               :class="{'sidebyside':image.names}"
-              :src="'https://img.dofe.adam.uk.eu.org/fauna/lost/'+tab.dir+name"
+              :src="'https://adam-clrk.github.io/DofE-Photos/lost/'+tab.dir+name"
               data-lity
-              :data-lity-target="'https://img.dofe.adam.uk.eu.org/lost/'+tab.dir+name">
+              :data-lity-target="'https://adam-clrk.github.io/DofE-Photos/lost/'+tab.dir+name">
           </md-card-media>
           <md-card-content v-if="image.description">{{image.description}}</md-card-content>
         </md-card>
